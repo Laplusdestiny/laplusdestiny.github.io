@@ -64,18 +64,46 @@
     </div>
 
     <div class="uk-margin uk-flex uk-flex-center uk-text-center" uk-grid>
-        <a href="https://twitter.com/Laplusdestiny" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover"><span uk-icon="icon: twitter"></span><br>Laplusdestiny</div></a>
-        <a href="https://www.github.com/Laplusdestiny" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover"><span uk-icon="icon: github"></span><br>Laplusdestiny</div></a>
-        <a href="https://www.linkedin.com/in/toru-sumi/" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover"><span uk-icon="icon: linkedin"></span><br>Toru Sumi</div></a>
-        <a href="https://ja.foursquare.com/laplusscarlet" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover"><span uk-icon="icon: foursquare"></span><br>Toru Sumi</div></a>
-        <a href="https://laplus.tumblr.com" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover"><span uk-icon="icon: tumblr"></span><br>La++Box</div></a>
+        <a href="https://twitter.com/Laplusdestiny" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover" uk-tooltip="title: Laplusdestiny"><span uk-icon="icon: twitter; ratio:2"></span></div></a>
+        <a href="https://www.github.com/Laplusdestiny" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover" uk-tooltip="title:Laplusdestiny"><span uk-icon="icon: github; ratio:2"></span></div></a>
+        <a href="https://www.linkedin.com/in/toru-sumi/" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover" uk-tooltip="title:Toru Sumi"><span uk-icon="icon: linkedin; ratio:2"></span></div></a>
+        <a href="https://ja.foursquare.com/laplusscarlet" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover" uk-tooltip="title:Toru Sumi"><span uk-icon="icon: foursquare; ratio:2"></span></div></a>
+        <a href="https://laplus.tumblr.com" target="_black"><div class="uk-card uk-card-default uk-card-body uk-card-hover" uk-tooltip="title:La++Box"><span uk-icon="icon: tumblr; ratio:2"></span></div></a>
     </div>
+    <ul class="uk-child-width-expand" uk-tab="animation: uk-animation-fade">
+        <li class="uk-active"><a href="">about me</a></li>
+        <li><a href="">works</a></li>
+    </ul>
 
-            <!-- <ul class="uk-child-width-expand" uk-tab>
-                <li class="uk-active"><a href="">item1</a></li>
-                <li><a href="">item2</a></li>
-                <li class="uk-disabled"><a href="">item3</a></li>
-            </ul> -->
-            <a href="#" uk-totop uk-scroll></a>
+    <ul class="uk-switcher uk-margin">
+        <li>
+            <div class="uk-flex uk-flex-center">
+                <div class="uk-cover-container uk-margin-auto-vertical">
+                    <article class="uk-article">
+                        <h1 class="uk-article-title">Introduction</h1>
+                        <p class="uk-text-load">I'm a Software Engineer.</p>
+                        <ul class="uk-list uk-list-bullet">
+                            <li>Data Science</li>
+                            <li>Image Processing</li>
+                            <li>Machine Learning</li>
+                        </ul>
+                        <h1 class="uk-article-title">Language</h1>
+                        <img src="https://cdn.svgporn.com/logos/c.svg" width="40" uk-svg>
+                        <img src="https://cdn.svgporn.com/logos/python.svg" width="40" uk-svg>
+                        <img src="https://cdn.svgporn.com/logos/r-lang.svg" width="40" uk-svg>
+                        <img src="https://cdn.svgporn.com/logos/bash.svg" width="40" uk-svg>
+                        <img src="https://cdn.svgporn.com/logos/html-5.svg" width="40" uk-svg>
+                    </article>
+                </div>
+        </li>
+        <li>
+            <div class="uk-flex uk-flex-center">
+                Coming Soon!
+            </div>
+        </li>
+    </ul>
+
+    <div clss="uk-flex uk-flex-center"><a href="#" uk-totop uk-scroll></a></div>
+    <div class="uk-text-uppercase uk-text-center">&copy; 2018<script>new Date().getFullYear()>2015&&document.write("-"+new Date().getFullYear());</script> Laplusdestiny.github.io</div>
 </body>
 </html>
